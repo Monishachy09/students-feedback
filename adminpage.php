@@ -25,6 +25,7 @@
                 <tr>
                     <th>Year</th>
                     <th>Sem</th>
+                    <th>Sir</th>
                     <th>Date</th>
                     <th>Branch</th>
                     <th>Section</th>
@@ -44,6 +45,7 @@
           echo "<tr>";
           echo "<td>" . $row['year'] . "</td>";
           echo "<td>" . $row['sem'] . "</td>";
+          echo "<td>" . $row['sir'] . "</td>";
           echo "<td>" . $row['date'] . "</td>";
           echo "<td>" . $row['branch'] . "</td>";
           echo "<td>" . $row['section'] . "</td>";

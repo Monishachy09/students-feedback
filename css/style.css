@@ -176,7 +176,7 @@ a:hover {
   .slider .carousel-inner .carousel-item::before {
     position: absolute;
     content: "";
-    /* background: rgba(3, 7, 53, 0.8); */
+    background: rgba(3, 7, 53, 0.8);
     height: 100%;
     width: 100%; }
   .slider .carousel-inner .carousel-item .carousel-caption {
@@ -194,7 +194,7 @@ a:hover {
       text-transform: uppercase;
       line-height: normal;
       letter-spacing: 1px;
-      color: #000;
+      color: #fff;
       margin: 0 0 1rem 0;
       display: inline-block; }
     .slider .carousel-inner .carousel-item .carousel-caption p {
@@ -202,7 +202,7 @@ a:hover {
       text-transform: capitalize;
       letter-spacing: 0.5px;
       margin: 10px 0px;
-      color: #000;
+      color: #fff;
       display: block;
       font-weight: 100;
       line-height: 35px; }

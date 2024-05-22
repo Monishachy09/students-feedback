@@ -14,7 +14,11 @@
             border: 1px solid #fff !important;
         }
         .slider .carousel-inner .carousel-item::before{
-            background:none !important;
+            /* background: none !important; */
+            background: rgba(0, 0, 0, 0.5) !important;
+        }
+        img{
+            width:100% !important;
         }
     </style>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -59,9 +63,9 @@
     <section id="carouselExampleFade" class="carousel slide carousel-fade slider" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/slider/1.jpg" class="d-block" alt="...">
+                <img src="images/slider/slider1.jpg" class="d-block" alt="...">
                 <div class="carousel-caption">
-                    <h2>Honours Programmes</h2>
+                    <h2>Best Education For Honours</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui perspiciatis, eveniet sequi labore vel itaque adipisci odio necessitatibus voluptatibus saepe, impedit enim unde velit amet rem, suscipit corrupti vero ad.</p>
                     <div class="button-01">
                         <ul>
@@ -72,9 +76,9 @@
                 </div>
             </div>
             <div class="carousel-item">
-            <img src="images/slider/2.jpg" class="d-block" alt="...">
+            <img src="images/slider/slider2.jpg" class="d-block" alt="...">
             <div class="carousel-caption">
-                <h2>Best Education For Diploma</h2>
+                <h2>Best Education For Honours</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui perspiciatis, eveniet sequi labore vel itaque adipisci odio necessitatibus voluptatibus saepe, impedit enim unde velit amet rem, suscipit corrupti vero ad.</p>
                 <div class="button-01">
                     <ul>
@@ -84,9 +88,9 @@
                 </div>
             </div>
             <div class="carousel-item">
-            <img src="images/slider/3.jpg" class="d-block" alt="...">
+            <img src="images/slider/slider3.jpg" class="d-block" alt="...">
             <div class="carousel-caption">
-                <h2>Best Education For Diploma</h2>
+                <h2>Best Education For Honours</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui perspiciatis, eveniet sequi labore vel itaque adipisci odio necessitatibus voluptatibus saepe, impedit enim unde velit amet rem, suscipit corrupti vero ad.</p>
                 <div class="button-01">
                     <ul>

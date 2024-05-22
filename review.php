@@ -43,6 +43,18 @@
             <option value="8th">Sem 8</option>
           </select>
           <br />
+        <!-- test code  -->
+        <label for="sir">Teacher</label>
+          <select name="sir" id="sir">
+            <option value="1st">Jamal</option>
+            <option value="2nd">Kamal</option>
+            <option value="3rd">Nabil</option>
+            <option value="4th">kamrul</option>
+            <option value="5th">Shakib</option>
+            
+          </select>
+          <br />
+        <!-- test code end  -->
 
           <label for="date">Date of Feedback</label>
           <input type="date" id="date" name="date" />
@@ -51,7 +63,8 @@
           <label for="branch">Branch</label>
           <select name="branch" id="branch">
             <option value="CSE">CSE</option>
-            <option value="ECE">ECE</option>
+            <option value="ECE">EEE</option>
+            <option value="ECE">SWE</option>
           </select>
           <br />
 
@@ -59,6 +72,8 @@
           <select name="section" id="section">
             <option value="A">Sec A</option>
             <option value="B">Sec B</option>
+            <option value="C">Sec C</option>
+            <option value="D">Sec D</option>
           </select>
           <br />
 
@@ -67,7 +82,8 @@
             <option value="OOPS">Object Oriented Programming</option>
             <option value="DSA">Data Structures and Algorithms</option>
             <option value="MI">Microprocessors</option>
-            <option value="AS">Applied Science</option>
+            <option value="NM">Numeric Method</option>
+            <option value="SP">Structure Programming</option>
           </select>
           <br />
         </div>
